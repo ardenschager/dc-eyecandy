@@ -286,7 +286,7 @@ room.afterInit = function () {
         onStart: () => {
             cubeController.stopAll();
             cubeController.play('CubeAction.002', { timeScale: 0.6 });
-            console.log("🌙 cube phase 1: slow movement");
+            console.log("cube phase 1");
         },
         onEnd: () => {}
     });
@@ -295,7 +295,7 @@ room.afterInit = function () {
         onStart: () => {
             cubeController.stopAll();
             cubeController.play('CubeAction.003', { timeScale: 1.3 });
-            console.log("🌅 cube phase 2: energetic awakening");
+            console.log("cube phase 2");
         },
         onEnd: () => {}
     });
@@ -304,7 +304,7 @@ room.afterInit = function () {
         onStart: () => {
             cubeController.stopAll();
             cubeController.play('CubeAction.002', { timeScale: 1.0 });
-            console.log("☀️ cube phase 3: steady activity");
+            console.log("cube phase 3");
         },
         onEnd: () => {}
     });
@@ -313,7 +313,7 @@ room.afterInit = function () {
         onStart: () => {
             cubeController.stopAll();
             cubeController.play('CubeAction.003', { timeScale: 1.8 });
-            console.log("🌞 cube phase 4: peak energy");
+            console.log("cube phase 4");
         },
         onEnd: () => {}
     });
@@ -322,7 +322,7 @@ room.afterInit = function () {
         onStart: () => {
             cubeController.stopAll();
             cubeController.play('CubeAction.002', { timeScale: 0.7 });
-            console.log("🌆 cube phase 5: winding down");
+            console.log("cube phase 5");
         },
         onEnd: () => {}
     });
